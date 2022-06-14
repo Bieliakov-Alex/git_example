@@ -1,7 +1,7 @@
-#include <iostream>
+#include <iostream> // директива препроцессора (вставляет содержимое файла iostream)
 
-int main(){
-  std::cout<<"Hello, world!"<<std::endl;
+int main(){ // основная функция
+    std::cout << "Hello, world!" << std::endl; // вывод строки на экран
 
-  return 0;
+    return 0; // выход из основной программы с кодом 0
 }
